@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloc de notas</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <div class="container">
+      <h1 class="title">Bloc de notas</h1>
+      <div>
+      <form action="Bloc.php" method="POST">
+         <h2 class="subtitle">Encabezado:</h2> <input class="input is-primary" type="text" placeholder="Titulo..." name="asunto">
+         <h2 class="subtitle">Descripción:</h2> <textarea class="textarea is-primary" placeholder="Escribir..." name="descripcion"></textarea>
+          <input class="button is-primary is-outlined" type="submit" value="Crear archivo" name="boton">
+      </form>
+    </div>
+  </div>
+</body>
+</html>
